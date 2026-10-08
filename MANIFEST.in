@@ -1,0 +1,1 @@
+recursive-include falar/web *.html *.css *.js *.png

@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Falar — Hermes Agent</title>
+    <link rel="stylesheet" href="/styles.css?v=20261006-bailarinas-sem-colisao">
+  </head>
+  <body>
+    <main class="shell">
+      <section class="hero">
+        <img class="eyes" src="/olhos_front.png" alt="Olhos de Laura">
+        <div class="floating-dancer" aria-hidden="true">
+          <img src="/bailarina_novo_teste.gif" alt="">
+        </div>
+        <div class="floating-dancer floating-dancer-secondary" aria-hidden="true">
+          <img src="/bailarina_novo_teste.gif" alt="">
+        </div>
+        <div class="floating-dancer floating-dancer-tertiary" aria-hidden="true">
+          <img src="/bailarina_novo_teste.gif" alt="">
+        </div>
+
+        <button id="listen-button" class="listen-button" type="button">
+          <span id="listen-label">FALE COMIGO</span>
+        </button>
+        <output id="progress-status" class="progress-status" aria-live="polite">Pronto para ouvir</output>
+        <div class="log-panel">
+          <button id="clear-log" class="clear-log" type="button" aria-label="Limpar logs">Limpar</button>
+          <div id="process-log" class="process-log" aria-live="polite"></div>
+        </div>
+      </section>
+    </main>
+    <script src="/app.js?v=20261006-bailarinas-sem-colisao"></script>
+  </body>
+</html>
